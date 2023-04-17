@@ -8,7 +8,7 @@ Este repositório tem o intuito de salvar todos os desafios referentes ao site F
 
 <details>
     <summary>Newbie</summary>
-    <p>1 - <a href="">Qr_component</a></p>
+    <p>1 - <a href="https://desafios-front-end-mentor-nurux.vercel.app">Qr_component</a></p>
     <p>2 - <a href="">Results_summary_component</a></p>
     <p>3 - <a href="">None</a></p>
     <p>4 - <a href="">None</a></p>
