@@ -1,0 +1,78 @@
+$breakpoint-tablet: 700px;
+$breakpoint-desktop: 1024px;
+
+
+
+@media (min-width: $breakpoint-tablet){
+
+    body {
+        align-items: center;
+    }
+    
+    main {
+        box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.162);
+        background-color: white;
+        border-radius: 2rem;
+        max-width: 80vw;
+        height: 65vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    .principal{
+        max-width: 50%;
+        height: 100%;
+        border-radius: 2rem;
+
+        h5{
+            padding-top: 1.5rem;
+        }
+
+        .number{
+            width: 10rem;
+            height: 10rem;
+        }
+
+        h3 {
+            padding: 1rem;
+            padding-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+
+        p#dec{
+            font-size: 1rem;
+            text-align: center;
+        }
+
+    }
+
+    .information {
+        height: 100%;
+        max-width: 50%;
+        margin: 0.5rem;
+       
+
+        button {
+            max-width: 15rem;
+            margin-bottom: 0;
+        }
+    }
+
+}
+
+@media (min-width: $breakpoint-desktop){
+    main{
+        max-width: 50rem;
+    }
+
+    .principal{
+        h5{
+            padding: 3rem;
+        }
+    }
+}
+
+
+

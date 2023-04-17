@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: "Hanken", sans-serif;
+  width: 100vw;
+  height: 100vh;
+}
+
+.principal {
+  background: linear-gradient(to top, #332DEA, #6543FA);
+  width: 100vw;
+  color: rgba(255, 255, 255, 0.67);
+  text-align: center;
+  border-radius: 0 0 1.8rem 1.8rem;
+}
+.principal h5 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.principal h3 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+.principal p#dec {
+  font-size: 0.8rem;
+  padding-bottom: 2rem;
+}
+.principal .number {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(to bottom, #4A24CC, #4633ED);
+  border-radius: 10rem;
+  width: 8rem;
+  height: 8rem;
+}
+.principal .number h1 {
+  color: white;
+  font-size: 3.5rem;
+}
+.principal .number p {
+  font-size: 0.8rem;
+}
+
+.information {
+  display: flex;
+  width: 100vw;
+  height: auto;
+  justify-content: center;
+  flex-direction: column;
+}
+.information h3 {
+  font-size: 1rem;
+  padding: 1rem;
+  color: rgb(9, 7, 53);
+}
+.information .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.information .value {
+  height: 3.5rem;
+  width: 90%;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: cadetblue;
+}
+.information .value .title {
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+}
+.information .value .title p {
+  padding-left: 0.5rem;
+}
+.information .value .calc {
+  padding-right: 1rem;
+  color: rgba(128, 128, 128, 0.681);
+  display: flex;
+  flex-direction: row;
+}
+.information .value .calc .first {
+  color: rgb(9, 7, 53);
+}
+.information button {
+  background-color: rgb(49, 49, 110);
+  width: 90vw;
+  height: 3rem;
+  font-size: 1rem;
+  border-radius: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: white;
+  border: none;
+}
+
+.content #reaction {
+  background-color: rgba(255, 85, 85, 0.062745098);
+}
+.content #reaction .title {
+  color: #e03535;
+}
+.content #memory {
+  background-color: rgba(255, 176, 30, 0.0784313725);
+}
+.content #memory .title {
+  color: #FFB21E;
+}
+.content #verbal {
+  background-color: rgba(0, 187, 143, 0.1176470588);
+}
+.content #verbal .title {
+  color: #00BB8F;
+}
+.content #visual {
+  background-color: rgba(35, 65, 200, 0.1176470588);
+}
+.content #visual .title {
+  color: #2342C8;
+}
+
+@media (min-width: 700px) {
+  body {
+    align-items: center;
+  }
+  main {
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.162);
+    background-color: white;
+    border-radius: 2rem;
+    max-width: 80vw;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .principal {
+    max-width: 50%;
+    height: 100%;
+    border-radius: 2rem;
+  }
+  .principal h5 {
+    padding-top: 1.5rem;
+  }
+  .principal .number {
+    width: 10rem;
+    height: 10rem;
+  }
+  .principal h3 {
+    padding: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+  .principal p#dec {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .information {
+    height: 100%;
+    max-width: 50%;
+    margin: 0.5rem;
+  }
+  .information button {
+    max-width: 15rem;
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 1024px) {
+  main {
+    max-width: 50rem;
+  }
+  .principal h5 {
+    padding: 3rem;
+  }
+}/*# sourceMappingURL=main.css.map */
