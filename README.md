@@ -6,4 +6,5 @@ Este repositório tem o intuito de salvar todos os desafios referentes ao site F
 
 ### Desafios
 
-1 - <a href="https://desafios-front-end-mentor-nurux.vercel.app" target="_blank">Qr Code</a>
+1 - <a href="https://desafios-front-end-mentor-nurux.vercel.app" target="_blank" >Qr Code</a>
+
