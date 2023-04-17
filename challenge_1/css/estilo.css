@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #D6E1F0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  width: 15rem;
+  border-radius: 1rem;
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+}
+section #img {
+  margin-top: 0.8rem;
+  display: flex;
+  justify-content: center;
+}
+section #img img {
+  width: 90%;
+  height: auto;
+  border-radius: 0.5rem;
+}
+section .content {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+section .content h3 {
+  font-size: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+section .content p {
+  font-size: 0.8rem;
+  color: rgb(158, 158, 158);
+}
+section .content footer {
+  font-size: 0.8rem;
+  font-style: italic;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+section .content footer a {
+  text-decoration: none;
+  color: black;
+}/*# sourceMappingURL=estilo.css.map */
