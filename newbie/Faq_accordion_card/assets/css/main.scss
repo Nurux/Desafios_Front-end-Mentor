@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300&display=swap');
+
+$color_base_1: #775CDD;
+$color_base_2: #AF68EA;
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: linear-gradient(to top, $color_base_1, $color_base_2);
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    max-width: 90vw;
+    height: 70vh;
+    width: 90vw;
+    border-radius: 1rem;
+    background-color: white;
+    margin-bottom: 2rem;
+}
+
+
+.logo{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    height: 14vh;
+    width: 70%;
+
+    img{
+        margin: auto;
+        position: relative;
+        max-width: 70vw;
+        max-height: 30vh;
+        left: calc(50% - 49%);
+        top: -6rem;
+        filter: drop-shadow(0 1.5rem 0 #9b8eba35);
+    }
+
+}
+
+.content{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    
+
+    h1 {
+        font-size: 2rem;
+        padding: 1rem;
+    }
+
+    button{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: none;
+        color: darkgray;
+        font-size: 0.8rem;
+        padding: 1rem 0;
+        border-bottom: 1px solid grey;
+        background-color: white;
+    }
+
+    .panel{
+        overflow: hidden;
+        display: none;
+        padding: 0 1rem;
+        font-size: 0.8rem;
+        text-align: left;
+    }
+}
+
+
+/*Botões*/
+.active, button.accordion:hover {
+    font-weight: bold;
+    font-size: 0.78rem;
+    color: black;
+}
+
+button.active {
+    border: none;
+
+
+    img{
+        transform: rotate(180deg);
+    }
+}
+
+.panel.active {
+    text-align: justify;
+    display: block;
+    font-weight: normal;
+    color: darkgray;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid grey; 
+}
+
+
+@import '_responsive'

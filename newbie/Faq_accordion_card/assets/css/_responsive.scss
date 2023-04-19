@@ -1,0 +1,42 @@
+@media screen and (min-width: 370px) {
+    .logo{
+        img{
+            top: -7rem;
+        }
+    }
+}
+
+@media screen and (min-width: 960px) {
+    body{
+        align-items: center;
+    }
+    
+    main {
+        display: flex;
+    }
+
+    .logo{
+        width: 50%;
+        flex-direction: row-reverse;
+
+        img {
+            width: 45vw;
+            height: auto;
+            max-height: 60vh;
+            position: relative; 
+            left: -5rem;
+            top: -10rem;
+        }
+
+        #block{
+            left: -0rem;
+            top: -2.5rem;
+            filter: none;
+        }
+
+    }
+
+    .content {
+        margin-right: 2rem;
+    }
+}
