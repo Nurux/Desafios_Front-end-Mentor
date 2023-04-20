@@ -1,0 +1,73 @@
+@media screen and (min-width: 700px) {
+    main{
+        width: 80vw;
+        height: 100vh;
+        align-items: center;
+    }
+
+    .Content {
+        margin-top: 1rem;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        .information{
+            width: 40%;
+            text-align: left;
+            align-items:flex-start;
+
+            .title{
+                h1{
+                    font-size: 2.5rem;
+                }
+            }
+        }
+
+        .avaliation{
+            width: auto;
+
+
+            .star_card{
+                position: relative;
+                flex-direction: row;
+                align-items: center;
+                width: 22rem;
+                height: 3rem;
+
+                p{
+                    padding: 0;
+                    margin-right: 2rem;
+                }
+            }
+            
+            .star_card:first-child{
+                left: -2rem;
+            }
+
+            .star_card:last-child{
+                right: -2rem;
+            }
+        }
+    }
+
+    .feedback{
+        margin-top: 4rem;
+        flex-direction: row;
+        gap: 1rem;
+
+        .card{
+            max-width: 50rem;
+            position: relative;
+        }
+
+        .card:first-child{
+            top: -2rem;
+        }
+
+        .card:last-child{
+            bottom: -2rem;
+        }
+    }
+    
+}
+   
